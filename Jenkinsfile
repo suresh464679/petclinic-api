@@ -23,8 +23,8 @@ pipeline
       steps {
         echo "Getting the API Testing Repo"
         git(
-        url:'git@github.com:ochoadevops/petclinic-api.git',
-        credentialsId: 'api',
+        url:'git@github.com:suresh464679/petclinic-api.git',
+          credentialsId: 'api',
         branch: "main"
         )
      }
